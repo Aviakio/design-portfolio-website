@@ -1,8 +1,7 @@
 ---
-title: "About Us"
-date: 2018-07-12T18:19:33+06:00
-heading : "WE ARE ROXO DESIGN. AN AWARD-WINNING CREATIVE STUDIO IN FLORIDA."
-description : "We are specialized in developing forward-thinking brand identities, websites, illustration and animation for all types of customers. And we do this by bringing our customers through each phase of the design process with us."
-expertise_title: "Expertise"
-expertise_sectors: ["Customer Experience Design", "Digital Products", "Development", "Campaign & Content", "Employer Branding", "Animation & Motion Graphics", "Packaging & Product Design", "Retail & Spacial", "Print & Editorial Design", "Concept/Text", "Information Design"]
+title: "About Me"
+heading : "I'm MELANIE SINCLAIR, aspiring UX Designer creating to improve our enjoyment of life"
+description : "My own experience living with an undiagnosed disorder and an enigmatic LGBTQ+ journey alongside the growth of computing has given me a unique interest in User Experience Design. Society growing into digital XR spaces has me both excited and concerned."
+expertise_title: "Skills and Interests"
+expertise_sectors: ["User Experience Design", "Interaction Design", "Design Sprints", "Front-End Development", "Digital Prototyping", "User Research & Modelling", "Vector & Rastor Illustration", "Physical Computing", "Communication & UX Writing", "VR & AR Spaces", "Ethics & Accessiblity"]
 ---
