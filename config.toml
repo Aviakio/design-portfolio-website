@@ -1,0 +1,4 @@
+baseURL = 'http://melaniesinclair.xyz/'
+languageCode = 'en-us'
+title = 'Portfolio - Melanie Sinclair'
+theme = "yourfolio"
