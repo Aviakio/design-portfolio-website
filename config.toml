@@ -1,0 +1,69 @@
+baseURL       = "http://melaniesinclair.xyz/"
+languageCode  = "en-us"
+title         = "Hello! - Melanie Sinclair"
+theme         = "roxo"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "About"
+    url     = "about"
+    weight  = 1
+  [[menu.nav]]
+    name    = "Portfolio"
+    url     = "portfolio"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Resume"
+    url     = "resume"
+    weight  = 3
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "Melanie Sinclair's Site"
+  author = "Melanie Sinclair"
+  # We're using formspree.io for form handling, paste your formspree url below
+  formspreeFormUrl  = "https://formspree.io/f/xknyrygv"
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Portfolio"
+    url     = "portfolio"
+  
+
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background.jpg"
+    heading               = "SITE UNDER CONSTRUCTION"
+    tagline               = "Upcoming portfolio site by Melanie Sinclair"
+    primary_button        = "See My Works"
+    primary_button_url    = "portfolio"
+    secondary_button      = "View Resume"
+    secondary_button_url  = "resume"
+
+  [params.portfolio]
+    enable    = true
+    title     = "MY RECENT PROJECTS"
+    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
+
+  [params.footer]
+      # Footer Contact Info
+      [params.footer.contactInfo]
+        title   = "Contact"
+        email   = "hello@melaniesinclair.xyz"
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Social Media"
+        [[params.footer.social.link]]
+          name = "LinkedIn"
+          url  = "https://www.linkedin.com/in/melanie-sinclair/"
+        [[params.footer.social.link]]
+          name = "Dribbble"
+          url  = "https://dribbble.com/Aviakio"
