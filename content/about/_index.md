@@ -1,7 +1,8 @@
 ---
-title: "About Me"
-heading : "I'm MELANIE SINCLAIR, aspiring UX Designer creating to improve our enjoyment of life"
-description : "My own experience living with an undiagnosed disorder and an enigmatic LGBTQ+ journey alongside the growth of computing has given me a unique interest in User Experience Design. Society growing into digital XR spaces has me both excited and concerned."
-expertise_title: "Skills and Interests"
-expertise_sectors: ["User Experience Design", "Interaction Design", "Design Sprints", "Front-End Development", "Digital Prototyping", "User Research & Modelling", "Vector & Rastor Illustration", "Physical Computing", "Communication & UX Writing", "VR & AR Spaces", "Ethics & Accessiblity"]
+title: "About Melanie Sinclair"
+heading : "Creating to improve our enjoyment of life"
+description : "I am curious and an observer of detail. After I finished my degree majoring UX Design, I gained experience working with people with disability giving me a unique perspective on how tech should evolve to best meet some needs that are sometimes left without consideration."
+skills_title: "Skills and Interests"
+skills_list: ["User Experience Design", "Design Sprints", "Front-End Development", "Digital Prototyping", "User Research & Modelling", "Communication & UX Writing", "VR & AR Spaces", "Ethics & Accessiblity"]
+portrait_sub : ""
 ---
