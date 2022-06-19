@@ -1,11 +1,13 @@
 .site-hero{
   position: relative;
-  height: 100vh;
+  height: 60vh;
+  background-color: $gray;
   background-size: cover;
   background-position: center center;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   @include desktop{
     height: auto;
     padding: 200px 0;
@@ -16,38 +18,19 @@
   &-content{
     h1{
       margin-bottom: 75px;
+      font-family: $decorative-font;
+      font-size: 100px;
       @include desktop-lg{
-        font-size: 50px;
+        font-size: 72px;
         margin-bottom: 50px;
       }
       @include mobile{
         font-size: 40px;
       }
     }
-    &-buttons{
-      margin: 0;
-      padding: 0;
-      li{
-        display: inline-block;
-        @include mobile{
-          display: block;
-        }
-        &:not(:last-child){
-          margin-right: 30px;
-          @include mobile{
-            margin-right: 0;
-            margin-bottom: 20px;
-          }
-        }
-        .btn{
-          font-weight: 600;
-          @include mobile{
-            width: 90%;
-            margin: 0 auto;
-            display: block;
-          }
-        }
-      }
+    h2{
+      font-size: 20px;
+      color: $primary-color;
     }
   }
   &-scroll{

@@ -12,23 +12,17 @@ summarylength = 25
     url     = "about"
     weight  = 1
   [[menu.nav]]
-    name    = "Portfolio"
-    url     = ""
-    weight  = 2
-  [[menu.nav]]
     name    = "Resume"
     url     = "resume"
-    weight  = 3
+    weight  = 2
 
 # Site Params
 [params]
   logo = "images/logo.png"
   dateFormat = "26 FEB 1994"
   # Meta data
-  description = "Melanie Sinclair's UX Design Portfolio"
+  description = "Melanie Sinclair - UX Design Portfolio"
   author = "Melanie Sinclair"
-  # We're using formspree.io for form handling, paste your formspree url below
-  formspreeFormUrl  = "https://formspree.io/f/xknyrygv"
   
   # Navbar Action Button
   [params.navAction]
@@ -39,20 +33,16 @@ summarylength = 25
 
   # Banner Section
   [params.banner]
-    enable                = false
-    background_image      = "images/backgrounds/hero-background.jpg"
-    heading               = "Melanie Sinclair, UX Designer"
-    tagline               = "ignore"
-    primary_button        = "See My Works"
-    primary_button_url    = "portfolio"
-    secondary_button      = "View Resume"
-    secondary_button_url  = "resume"
+    enable                = true
+    background_image      = "images/backgrounds/hero-background.png"
+    heading               = "Melanie Sinclair"
+    tagline               = "UX/UI Designer"
 
   [params.portfolio]
     enable    = true
-    title     = "Melanie Sinclair,"
-	subtitle = "UX Designer"
-    description  = "Site currently under construction!"
+    title     = "Design Portfolio"
+	subtitle = ""
+    description  = "Site currently under construction, please come back another time!"
 
   [params.footer]
       # Footer Contact Info

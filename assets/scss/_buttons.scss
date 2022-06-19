@@ -31,14 +31,14 @@
     }
   }
   &:hover{
-    .btn-area{
+    /*.btn-area{
       span{
         transform: translateY(-150%) skewY(7deg);
         &::after{
           transform: skewY(-7deg);
         }
       }
-    }
+    }*/
   }
   &:visited{
     .btn-area{

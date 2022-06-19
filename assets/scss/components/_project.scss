@@ -8,6 +8,8 @@
     &-thumb{
       img{
         width: 100%;
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
       }
     }
     &-content{
@@ -16,10 +18,12 @@
       width: 100%;
       bottom: 0;
       transition: all .3s $site-ease;
-      @include tablet{
-        padding: 30px;
-        padding-bottom: 75px;
-      }
+      background: rgba( 255, 255, 255, 0.25 );
+      box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+      backdrop-filter: blur( 4px );
+      -webkit-backdrop-filter: blur( 4px );
+      border-radius: 10px;
+      border: 1px solid rgba( 255, 255, 255, 0.18 );
       span{
         font-family: $secondary-font;
         color: $primary-color;
@@ -65,34 +69,6 @@
           transform: translateY(0);
           opacity: 1;
         }
-      }
-    }
-  }
-  &-cta{
-    margin-top: 30px;
-    display: inline-block;
-    position: relative;
-    font-family: $secondary-font;
-    font-size: 18px;
-    font-weight: 500;
-    color: $primary-color;
-    &::before{
-      content: '';
-      position: absolute;
-      height: 2px;
-      width: 100%;
-      background: $primary-color;
-      bottom: -2px;
-      transition: transform 0.3s $site-ease;
-      transform-origin: right;
-      transform: scaleX(0);
-    }
-    &:hover{
-      color: $primary-color;
-      text-decoration: none;
-      &::before{
-        transform: scaleX(1);
-        transform-origin: left;
       }
     }
   }
