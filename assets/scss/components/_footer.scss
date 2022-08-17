@@ -1,4 +1,6 @@
 .site-footer{
+  position: relative;
+  bottom: 0;
   background: $secondary-color;
   padding: 100px 0;
   &-logo{

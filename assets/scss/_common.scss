@@ -6,16 +6,17 @@ body {
   background: $body-color;
 }
 
+main {
+  min-height: 85vh;
+}
+
 .section-title{
-  margin-bottom: 70px;
-  @include desktop{
-    text-align: center;
-  }
   h2{
     font-weight: 300;
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 15px;
+    padding-left: 60px;
     @include desktop{
       font-size: 40px;
     }
